@@ -1,0 +1,24 @@
+User-Agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://ezbiz-pro.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
+
+# Disallow
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*?*
+
+# Allow
+Allow: /*.js
+Allow: /*.css
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.ico
